@@ -1,11 +1,11 @@
 # These and other macros are documented in ../droid-configs-device/droid-configs.inc
 # Feel free to cleanup this file by removing comments, once you have memorised them ;)
 
-%define device dandelion
+%define device angelica
 %define vendor xiaomi
 
 %define vendor_pretty Xiaomi
-%define device_pretty Redmi 9A
+%define device_pretty Redmi 9C
 
 # Community HW adaptations need this
 %define community_adaptation 1
@@ -19,8 +19,8 @@
 %define pixel_ratio 1.0
 
 %include droid-configs-device/droid-configs.inc
-%include patterns/patterns-sailfish-device-adaptation-dandelion.inc
-%include patterns/patterns-sailfish-device-configuration-dandelion.inc
+%include patterns/patterns-sailfish-device-adaptation-angelica.inc
+%include patterns/patterns-sailfish-device-configuration-angelica.inc
 
 # IMPORTANT if you want to comment out any macros in your .spec, delete the %
 # sign, otherwise they will remain defined! E.g.:
